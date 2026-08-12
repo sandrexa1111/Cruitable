@@ -1,20 +1,26 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Cruitable
 
-# Run and deploy your AI Studio app
+Frontend prototype for a job-discovery product concept focused on local and remote opportunities.
 
-This contains everything you need to run your app locally.
+This repository is an earlier UI/product exercise rather than a production recruiting platform. I keep it public as part of my frontend project history.
 
-View your app in AI Studio: https://ai.studio/apps/drive/17yeAk5ETbyAN8mLYMCuShCj7lC8juka-
+## Built with
 
-## Run Locally
+- React
+- TypeScript
+- Vite
+- reusable component modules
+- theme, language, and authentication context providers
 
-**Prerequisites:**  Node.js
+The current interface includes a landing page, feature/product sections, a dashboard demonstration, pricing mockups, and recruiter-oriented calls to action.
 
+## Run locally
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm install
+npm run dev
+```
+
+## Status
+
+Prototype. The screens and product copy are demonstrative; they should not be read as claims about a live commercial service.
